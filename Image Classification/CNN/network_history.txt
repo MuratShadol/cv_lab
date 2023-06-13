@@ -1,0 +1,6 @@
+Epoch 1/10
+439/439 [==============================] - 228s 440ms/step - loss: 0.9352 - accuracy: 0.6439 - val_loss: 0.6973 - val_accuracy: 0.7517
+Epoch 2/10
+439/439 [==============================] - 177s 402ms/step - loss: 0.5992 - accuracy: 0.7825 - val_loss: 0.5937 - val_accuracy: 0.7823
+Epoch 3/10
+439/439 [==============================] - 176s 400ms/step - loss: 0.4633 - accuracy: 0.8348 - val_loss: 0.6013 - val_accuracy: 0.7833
