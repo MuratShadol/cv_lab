@@ -1,0 +1,24 @@
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_2 (InputLayer)        [(None, 150, 150, 3)]     0
+
+ sequential (Sequential)     (None, 150, 150, 3)       0
+
+ rescaling (Rescaling)       (None, 150, 150, 3)       0
+
+ xception (Functional)       (None, 5, 5, 2048)        20861480  
+
+ global_average_pooling2d (G  (None, 2048)             0
+ lobalAveragePooling2D)
+
+ dropout (Dropout)           (None, 2048)              0
+
+ dense (Dense)               (None, 6)                 12294
+
+=================================================================
+Total params: 20,873,774
+Trainable params: 20,819,246
+Non-trainable params: 54,528
+_________________________________________________________________
+Epoch 1/10
+439/439 [==============================] - 2737s 6s/step - loss: 0.2552 - accuracy: 0.9058 - val_loss: 0.2212 - val_accuracy: 0.9210

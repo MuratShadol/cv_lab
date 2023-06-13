@@ -1,0 +1,36 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 150, 150, 3)]     0
+
+ sequential (Sequential)     (None, 150, 150, 3)       0
+
+ rescaling (Rescaling)       (None, 150, 150, 3)       0
+
+ xception (Functional)       (None, 5, 5, 2048)        20861480  
+
+ global_average_pooling2d (G  (None, 2048)             0
+ lobalAveragePooling2D)
+
+ dropout (Dropout)           (None, 2048)              0
+
+ dense (Dense)               (None, 6)                 12294
+
+=================================================================
+Total params: 20,873,774
+Trainable params: 12,294
+Non-trainable params: 20,861,480
+_________________________________________________________________
+Epoch 1/10
+439/439 [==============================] - 788s 2s/step - loss: 0.4598 - accuracy: 0.8333 - val_loss: 0.3073 - val_accuracy: 0.8903
+Epoch 2/10
+439/439 [==============================] - 739s 2s/step - loss: 0.3385 - accuracy: 0.8735 - val_loss: 0.2919 - val_accuracy: 0.8927
+Epoch 3/10
+439/439 [==============================] - 663s 2s/step - loss: 0.3278 - accuracy: 0.8830 - val_loss: 0.2897 - val_accuracy: 0.8927
+Epoch 4/10
+439/439 [==============================] - 718s 2s/step - loss: 0.3139 - accuracy: 0.8865 - val_loss: 0.2792 - val_accuracy: 0.9030
+Epoch 5/10
+439/439 [==============================] - 681s 2s/step - loss: 0.3029 - accuracy: 0.8901 - val_loss: 0.2718 - val_accuracy: 0.9047
+Epoch 6/10
+439/439 [==============================] - 707s 2s/step - loss: 0.2965 - accuracy: 0.8912 - val_loss: 0.2742 - val_accuracy: 0.9020
