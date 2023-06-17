@@ -9,7 +9,7 @@ The image_classification_transfer.py file describes the program code
 Found 14044 files belonging to 6 classes.
 Found 3002 files belonging to 6 classes.
 Model: "model_1"
-
+ 
 _________________________________________________________________
  Layer (type)               Output Shape             Param #   
 =================================================================
