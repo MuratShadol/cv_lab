@@ -5,8 +5,7 @@ The file top_layer_training describes the training of the top layer
 
 The image_classification_transfer.py file describes the program code
 
-![val](cv_lab/Image Classification/ Finetuned CNN/val_acc.png)
-
+![image](https://drive.google.com/file/d/1PcpzyHKtUJuxXodRYVau_6YQWo59_qzE/view?usp=drive_link)
 Found 14044 files belonging to 6 classes.
 Found 3002 files belonging to 6 classes.
 Model: "model_1"
