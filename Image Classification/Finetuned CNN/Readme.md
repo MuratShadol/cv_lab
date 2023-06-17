@@ -5,6 +5,8 @@ The file top_layer_training describes the training of the top layer
 
 The image_classification_transfer.py file describes the program code
 
+![alt text](https://github.com/[MuratShadol]/[cv_lab]/blob/[main]/val_acc.png?raw=true)
+
 Found 14044 files belonging to 6 classes.
 Found 3002 files belonging to 6 classes.
 Model: "model_1"
