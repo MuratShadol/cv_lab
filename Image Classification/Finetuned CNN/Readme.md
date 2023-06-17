@@ -8,6 +8,7 @@ The image_classification_transfer.py file describes the program code
 Found 14044 files belonging to 6 classes.
 Found 3002 files belonging to 6 classes.
 Model: "model_1"
+
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
@@ -33,12 +34,16 @@ Non-trainable params: 20,861,480
 _________________________________________________________________
 Epoch 1/100
 439/439 [==============================] - 1152s 3s/step - loss: 0.4520 - accuracy: 0.8357 - val_loss: 0.3177 - val_accuracy: 0.8827
+
 Epoch 2/100
 439/439 [==============================] - 33s 76ms/step - loss: 0.3466 - accuracy: 0.8735 - val_loss: 0.2946 - val_accuracy: 0.8971
+
 Epoch 3/100
 439/439 [==============================] - 32s 74ms/step - loss: 0.3147 - accuracy: 0.8825 - val_loss: 0.2830 - val_accuracy: 0.8927
+
 Epoch 4/100
 439/439 [==============================] - 37s 85ms/step - loss: 0.3087 - accuracy: 0.8884 - val_loss: 0.2899 - val_accuracy: 0.8921
+
 Epoch 5/100
 439/439 [==============================] - 33s 74ms/step - loss: 0.3126 - accuracy: 0.8849 - val_loss: 0.2787 - val_accuracy: 0.8991
 Epoch 6/100
